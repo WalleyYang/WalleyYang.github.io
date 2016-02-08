@@ -1,1 +1,67 @@
-Hello World!
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WalleyYang.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/master.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+      <ul class="nav navbar-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#myModal">Contact</a></li>
+        <li><a href="https://www.linkedin.com/in/walleyyang" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/WalleyYang" target="_blank">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="about" class="row about offset">
+    <h2>About</h2>
+    <div class="about-info">
+      <img class="me pull-left" src="img/me.png">
+        Hi, I’m Walley. I love to create web applications. I’m pursuing my passion to become a professional software developer. I completed my B.S. in Computer Programming Technology at Southwestern College and I will be starting my M.S. in Computer Information Systems at Florida Institute of Technology. I’m a graduate of theFirehoseProject coding boot camp. The ideal job for me is to contribute to a company and its customers by writing code to create software applications, working with teams to meet objectives, and learning from others to improve my technical skills.
+    </div>
+  </section>
+  <section id="projects" class="row projects offset">
+    <h2>Projects</h2>
+    <div class="text-center project">
+      <h4>Periwinkle Blue Chess Application</h4>
+      <h5>Ruby on Rails, jQuery, Firebase, HTML, CSS</h5>
+      <a href="http://periwinkle-blue.herokuapp.com" target="_blank"><img src="img/periwinkle-blue.png" /></a>
+      <br>
+      The Periwinkle Blue chess game was the capstone team project from <a href="http://www.thefirehoseproject.com" target="_blank">theFirehoseProject</a> coding boot camp. The objective was to create a working chess game while learning how to work as an agile team within six weeks. See the repository at <a href="https://github.com/periwinkle-blue/periwinkle-blue" target="_blank">GitHub</a>.
+    </div>
+  </section>
+
+
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <script type="text/javascript" src="https://form.jotform.com/jsform/60377445080152"></script>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/jquery-1.12.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
